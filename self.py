@@ -17,13 +17,15 @@
 
 
 
-class Test:
-    def __init__(self) -> None:
-        print("constructor")
+class Test: 
+    def __init__(x) -> None:
+        print("constructot",id(x))
 
     # def m1(self,x):
     #     print("method")
 
-t=Test(10)
+t=Test()
+
+print(id(t))
 #t.m1(10)             
        
