@@ -25,9 +25,21 @@
 
 #How to print excepton info to consol
 
-try:
-    print(10/0)
+# try:
+#     print(10/0)
 
-except ZeroDivisionError as msg:
-    print('Exception Type :',type(msg))  
-    print('The tyep of exception :',msg.__class__ )  
+# except ZeroDivisionError as msg:
+#     print('Exception Type :',type(msg))  
+#     print('The tyep of exception :',msg.__class__ )  
+
+
+try:
+    x=int(input('enter 1st no,'))
+    y=int(input('enter 2nd no'))
+    print('the result is:',x/y)
+
+except ZeroDivisionError:
+    print('Cannot divde by zero')
+
+except ValueError:
+    print  ('plz prove int values only')  
