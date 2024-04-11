@@ -33,13 +33,33 @@
 #     print('The tyep of exception :',msg.__class__ )  
 
 
+# try:
+#     x=int(input('enter 1st no,'))
+#     y=int(input('enter 2nd no'))
+#     print('the result is:',x/y)
+
+# except ZeroDivisionError:
+#     print('Cannot divde by zero')
+
+# except ValueError:
+#     print  ('plz prove int values only')  
+
+
+# try:
+#     print(10/0)
+# except ZeroDivisionError:
+#     print("ZeroDivisionError")
+
+# except ArithmeticError:
+#     print("ArithmeticError") 
+
+
 try:
-    x=int(input('enter 1st no,'))
-    y=int(input('enter 2nd no'))
-    print('the result is:',x/y)
+
+    print(10/0)
+except ArithmeticError:
+    print("ArithmeticError") 
 
 except ZeroDivisionError:
-    print('Cannot divde by zero')
+    print("ZeroDivisionError")    
 
-except ValueError:
-    print  ('plz prove int values only')  
