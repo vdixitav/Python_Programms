@@ -147,7 +147,82 @@
 
 # 4) pop(): remove and retuen last elemet
 
-n=[1,2,3,4,5]
-print(n.pop())
-print(n)
+# n=[1,2,3,4,5]
+# print(n.pop())
+# print(n)
+
+
+# a='hello'
+# b=list((X.upper(),len(X)) for X in a)
+# print(b)
+
+# lst=[3,4,6,1,2]
+# lst[1:2]=[7,8]
+# print(lst)
+
+# a=[1,2,3,4]
+# b=[sum(a[0:x+1])for x in range(0,len(a))]
+# print(b)
+
+# import copy
+# a=[10,23,56,[78]]
+# b=copy.deepcopy(a)
+# a[3][0]=95
+# a[1]=34
+# print(b)
+
+# print(list(zip(1,2,3),('a'),('XXX','YYY')))
+# print(list(zip(2,4),('b','c'),('yy','xx')))
+
+# a=[[]]*3
+# a[1].append(7)
+# print(a)
+
+# a=[10,23,56,[78]]
+# b=list(a)
+# a[3][0]=95
+# a[1]=34
+# print(b)
+
+# a=165
+# b=sum(list(map(int,str(a))))
+# print(b)
+
+# x=[[1],[2]]
+# print(''.join(list(map(str,x))))
+
+# lst=[[1,2],[3,4]]
+# print(sum(lst[]))
+
+# def unpack(a,b,c,d):
+#       print(a+d)
+
+# x=[1,2,3,4]
+# unpack(*x)    
+
+# a=[14,52,7]
+# b=a.copy()
+# b is a
+# print(b)
+
+# a=list((45,)*4)
+# print((45)*4)
+# print(a)
+
+# a=[1,2,3]
+# b=a.append(4)
+# print(a)
+# print(b)
+
+# a=[13,56,17]
+# a.append([87])
+# a.extend([45,67])
+# print(a)
+
+word1='Apple'
+word2='Apple'
+list1=[1,2,3]
+list2=[1,2,3]
+print(word1 is word2)
+print(list1 is list2)
 
