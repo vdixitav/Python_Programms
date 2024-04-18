@@ -44,18 +44,30 @@
 
 
 
-s="Durga"
-op=''
-i=len(s)
-print(i)
-print()
-while i>=0:
-    print("i befor -",i)
-    op=op+s[i-1]
-    print(op)
-    i=i-1
-    print("i after -",i)
+# s="Durga"
+# op=''
+# i=len(s)
+# print(i)
+# print()
+# while i>=0:
+#     print("i befor -",i)
+#     op=op+s[i-1]
+#     print(op)
+#     i=i-1
+#     print("i after -",i)
 
+# print(op)
+
+### write a programee to reverse a word
+
+s='learing python is very easy'
+l=s.split()  # it will give list of words
+print(l)
+
+l1=l[::-1]
+print(l1)
+
+op=' '.join(l1) # in empty string sace must be there
 print(op)
 
 
