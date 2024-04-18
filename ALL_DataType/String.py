@@ -122,6 +122,44 @@
 # print(op)
 
 
+#String creation
+
+# str1="hello python"
+# print(str1)
+
+# mystr1='ytyty'
+# mystr2=mystr1*2
+# print(mystr2)
+
+## String indexing
+str1="hello python"
+print(str1)
+
+m=str1[0] # 1st ch in string
+print(m)
+
+a=str1[len(str1)-1] #last ch of string using len()
+print(a)
+
+b=str1[-1] #last ch of string
+print(b)
+
+## String Sclicing##
+
+c=str1[0:5] #strn sclicing fetch all ch from 0 to 5 index (4th index partyant ch fetch karel)
+print(c)
+
+d=str1[6:12]
+print(d)
+
+
+
+
+
+
+
+
+
 
 
 
