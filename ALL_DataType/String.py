@@ -132,25 +132,78 @@
 # print(mystr2)
 
 ## String indexing
-str1="hello python"
-print(str1)
+# str1="hello python"
+# print(str1)
 
-m=str1[0] # 1st ch in string
-print(m)
+# m=str1[0] # 1st ch in string
+# print(m)
 
-a=str1[len(str1)-1] #last ch of string using len()
-print(a)
+# a=str1[len(str1)-1] #last ch of string using len()
+# print(a)
 
-b=str1[-1] #last ch of string
-print(b)
+# b=str1[-1] #last ch of string
+# print(b)
 
 ## String Sclicing##
 
-c=str1[0:5] #strn sclicing fetch all ch from 0 to 5 index (4th index partyant ch fetch karel)
-print(c)
+# c=str1[0:5] #strn sclicing fetch all ch from 0 to 5 index (4th index partyant ch fetch karel)
+# print(c)
 
-d=str1[6:12]
-print(d)
+# d=str1[6:12] # retreive all ch betwn 6-12
+# print(d)
+
+# e=str1[-4:] # retreive last 4 ch of string
+# print(e)
+
+# f=str1[-6:] # print last 6 ch
+# print(f)
+
+# g=str1[:4] # 1st 4 latters
+# print(g)
+
+# h=str1[:6] # 1st 6 ch of string
+
+# print(h)
+
+#### Upadate and delete string ####
+
+#str1="hello python"
+
+# strings are immutable so cannot change
+
+# a=str1[0:5]='eee' # it will through error
+# print(a)
+
+
+### delete string
+# str3='maaaa'
+# del str3
+# print(str3)
+
+## string concatenation
+
+#str1="hello python"
+# srt2="maaa"
+# str3=str1+srt2
+# print(str3)
+
+
+### iteration throught string ###
+str1="hello python"
+# for i in str1:
+#     print(i)
+
+# for i in enumerate(str1): # it will print with index
+#     print(i)
+
+s2=list(enumerate(str1))
+
+print(s2)
+
+
+
+
+
 
 
 
