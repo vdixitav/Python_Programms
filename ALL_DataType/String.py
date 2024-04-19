@@ -189,19 +189,88 @@
 
 
 ### iteration throught string ###
-str1="hello python"
+# str1="hello python"
 # for i in str1:
 #     print(i)
 
 # for i in enumerate(str1): # it will print with index
 #     print(i)
 
-s2=list(enumerate(str1))
+# s2=list(enumerate(str1))
 
-print(s2)
+# print(s2)
+
+## string membership
+
+# mystr1='hello everyone'
+# # print('hello' in mystr1)
+# # print('me' in mystr1)
+
+# # string partitionaing
+
+# str5='natural lag processing and deep learning'
+# l=str5.partition('and')
+# print(l)
 
 
+## String functions
 
+# mystr2='  Hello everyone'
+# print(mystr2)
+
+# a=mystr2.strip()#remove white spaces from bigining and end
+# print(a)
+
+# b=mystr2.rstrip()#remove white spaces at end of string
+# print(b)
+
+# c=mystr2.lstrip()
+# print(c)
+
+
+# d=mystr2.lower()
+# print(d)
+
+# e=mystr2.upper()
+# print(e)
+
+# f=mystr2.replace('He','Ho')
+# print(f)
+
+
+# mystr4='one two three four five six one two two'
+ 
+# a=mystr4.count('one')
+# print(a)
+
+# b=mystr4.startswith('one')
+# print(b)
+
+# c=mystr4.endswith("nine")
+# print(c)
+
+# mylist=mystr4.split()
+# print(mylist)
+
+
+#combining string and number using format method
+
+# item1=40
+# item2=90
+# item3=80
+# res="cost of item1 , item2 and item3 are {},{} and {}"
+# print(res.format(item1,item2,item3))
+
+
+# item1=40
+# item2=90
+# item3=80
+# res="cost of item1 , item2 and item3 are {0},{2} and {1}"
+# print(res.format(item1,item2,item3))
+
+str2="WELCOME EVERYONE"
+str2=str2.center(50)
+print(str2)
 
 
 
