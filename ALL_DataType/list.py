@@ -219,10 +219,74 @@
 # a.extend([45,67])
 # print(a)
 
-word1='Apple'
-word2='Apple'
-list1=[1,2,3]
-list2=[1,2,3]
-print(word1 is word2)
-print(list1 is list2)
+# word1='Apple'
+# word2='Apple'
+# list1=[1,2,3]
+# list2=[1,2,3]
+# print(word1 is word2)
+# print(list1 is list2)
+
+
+
+# list slicing
+
+# mylist=['one','two','three','four','five','six','seven','eight']
+
+# a=mylist[0:3]
+# print(a)
+
+# b=mylist[2:5]
+# print(b)
+
+# c=mylist[0:3]
+# print(c)
+
+# d=mylist[:2]
+# print(d)
+
+# e=mylist[-3:]
+# print(e)
+
+# f=mylist[:-3]
+# print(f)
+
+# add ,remove , change items
+
+#print(mylist)
+
+# a= mylist.append('six')
+# print(a)
+
+# mylist[0]=90
+# print(mylist)
+
+# reverse and sort lsi
+
+#list1=['one','two','three','four','five','six','seven','eight']
+# list1.reverse()
+# print(list1)
+
+# list1=list1[::-1]
+# print(list1)
+
+# loop through a list
+
+#print(list1)
+list1=['one','two','three','four','five','six','seven','eight']
+# for i in list1:
+#   print(i)
+
+# for i in enumerate(list1):
+#     print(i) 
+
+# m=list1.count('nine') 
+# print(m)
+
+L2=[1,2,3,4,5,0]
+print(all(L2))
+
+print(any(L2))
+
+
+
 
