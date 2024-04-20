@@ -268,9 +268,9 @@
 # res="cost of item1 , item2 and item3 are {0},{2} and {1}"
 # print(res.format(item1,item2,item3))
 
-str2="WELCOME EVERYONE"
-str2=str2.center(50)
-print(str2)
+# str2="WELCOME EVERYONE"
+# str2=str2.center(50)
+# print(str2)
 
 
 
