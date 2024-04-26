@@ -133,6 +133,22 @@
 # s1.show()
 
 
+## Override ###
+
+class person: # parent class
+    def __init__(self,name,age,gender):
+        self.name=name
+        self.age=age
+        self.gender=gender
+
+    def greet(self):
+        print("Hello person")
+
+        
+            
+        
+
+
 
 
 
